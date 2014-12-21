@@ -1,0 +1,13 @@
+{
+    "name": "fervo/heroku-db",
+    "description": "Makes it easy for IncenteevParameterHandler to pick up Heroku database params",
+    "license": "MIT",
+    "type": "library",
+    "autoload": {
+        "psr-4": { "Fervo\\Composer\\HerokuDb\\": "src/" }
+    },
+    "require": {
+        "php": ">=5.4",
+        "icecave/lace": "dev-master"
+    }
+}
