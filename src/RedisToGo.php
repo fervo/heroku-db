@@ -15,7 +15,7 @@ class RedisToGo
 
             putenv("REDIS_HOST={$data['host']}");
             putenv("REDIS_PORT={$data['port']}");
-            putenv("REDIS_AUTH={$data['user']}:{$data['pass']}");
+            putenv("REDIS_AUTH={$data['pass']}");
         }
 
         $io = $event->getIO();
